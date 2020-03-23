@@ -1,0 +1,82 @@
+main{
+   margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 8%;
+    font-size:23px;
+}
+img{
+	width: 400px;
+	height: 350px;
+	float:left;
+	margin: 7px 7px 7px 7px;
+	float:right;
+	margin: 7px 7px 7px 7px;
+	display: flex;
+    justify-content: flex-end;
+	border: 3px solid #3300CC;
+}
+h1{
+	color:rgb(0,0,100);
+	font-family:Georgia; serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    margin-left: 70px;
+}
+h2{color:rgb(10,10,100);
+    text-align: center;
+        text-shadow: 10px;
+	
+}
+p{
+    text-indent: 20px;
+    font-size:23px;
+}
+\\nav{
+    font-size: 23px;
+    margin-bottom: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-image: linear-gradient(to bottom, darkolivegreen	 , white, red, white, darkolivegreen);
+    font-family: cursive;
+    /*background-image: url("flag.png")         /* <---------      /* Це кращий background, він мені більше подобається але                                                                        завдання є завдання і я зробив як було написано в                                                                               завданні, але це залишив як варіант*/
+    
+}
+iframe{float:left;
+	margin: 7px 7px 7px 7px;
+	float:right;
+margin: 7px 7px 7px 7px;}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+.nav {
+    background-color: chartreuse;
+    border-color: crimson;
+    max-height: 64px;
+}
+.nav li {
+    float: right;
+    margin: 10px;
+    height: 2
+}
+.nav a {
+    display: list-item;
+    color:black;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20000px;
+    font-size: 18px;
+    background-color: aliceblue;
+    text-decoration-line: none;
+}
+.nav a:hover {
+    background-color: crimson;
+    text-decoration-color: cornsilk;
+}
